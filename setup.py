@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="config_wrapper-YOUR-USERNAME-HERE", # Replace with your own username
-    version="0.0.1",
+    name="config_wrapper",
+    version="0.0.11",
     author="Piotr Zielski",
     author_email="zielskipiotr@gmail.com",
     description="Simple wrapper for cofigparser",
@@ -20,7 +20,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "config_wrapper"},
-    packages=setuptools.find_packages(where="config_wrapper"),
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src"),
     python_requires=">=3.7",
 )
