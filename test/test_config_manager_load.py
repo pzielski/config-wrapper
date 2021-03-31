@@ -4,8 +4,8 @@ import unittest
 from dataclasses import dataclass
 from unittest.mock import MagicMock
 
-from config_wrapper import ConfigManager
-from config_wrapper.exceptions import InvalidFieldTypeException, EmptyConfigurationException
+from src.config_wrapper import ConfigManager
+from exceptions import InvalidFieldTypeException, EmptyConfigurationException
 
 
 @dataclass

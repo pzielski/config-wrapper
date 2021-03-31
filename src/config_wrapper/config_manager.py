@@ -1,7 +1,7 @@
 import configparser
 import dataclasses
 
-from config_wrapper.exceptions import InvalidFieldTypeException, EmptyConfigurationException
+from exceptions import InvalidFieldTypeException, EmptyConfigurationException
 
 
 class ConfigManager:
